@@ -1,0 +1,41 @@
+@mixin button-orange($bg, $bg2) {
+  background: $bg;
+  &:hover {
+    background:$bg2;
+		text-decoration:none;
+		color:white;
+		box-shadow:rgba(0,0,0,0.2) 0 5px 15px;
+
+  }
+  &:active {
+    background:$bg2;
+		text-decoration:none;
+  }
+}
+.btn {
+ color:white;
+ text-decoration:none;
+ border-radius:100px;
+ font-family: "Point-Bold", sans-serif;
+ letter-spacing: -0.02em;
+}
+
+.btn-orange{
+	@include button-orange($orange, $orange2);
+  padding: 18px 24px;
+  font-size:18px;
+}
+
+.btn-sale{
+  @include button-orange($orange, $orange2);
+  padding: 24px 48px;
+  font-size: 32px;
+  line-height: 1;
+}
+.btn-promo{
+  @include button-orange($blueGradient, $blue2);
+  padding: 24px 48px;
+  font-size: 32px;
+  line-height: 1;
+}
+

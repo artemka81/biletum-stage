@@ -1,0 +1,49 @@
+.title{
+	position: relative;
+	padding-top: 50px;
+	min-height: 600px;
+}
+.decs{
+	margin-top: 40px;
+	max-width: 596px;
+	width: 100%;
+	line-height: 1.7;
+	opacity: .8;
+}
+
+.your, .experience {
+	font-size: 90px;
+	color: $dark;
+	font-family: "Point-Bold", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 108px;
+	letter-spacing: -0.01em;
+
+}
+.your{
+	position:absolute;
+	z-index: 2;
+}
+.experience{
+	padding: 186px 0 0 100px;
+
+}
+.wow{
+	position:absolute;
+	top: 106px;
+	left: 74px;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 80px;
+	line-height: 96px;
+	letter-spacing: -0.01em;
+	padding: 30px 64px 20px 64px;
+	font-family: "Point-Black", sans-serif;
+	text-align: center;
+	color: #ffffff;
+	background: linear-gradient(90deg, #FF8786 0%, #FACE8A 100%);
+	border-radius: 200px;
+	transform: rotate(-6.85deg);
+}
+

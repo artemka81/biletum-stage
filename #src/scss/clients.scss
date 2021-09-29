@@ -1,0 +1,33 @@
+.clients{
+	margin:8em 0 2em 0;
+	&__bg{
+		background-image: url(/img/clients_bg.png);
+		background-repeat: no-repeat;
+		background-position: top right;
+
+	}
+}
+
+.clients__title{
+	  display: flex;
+		font-size: 64px;
+		color: $dark;
+	 	font-family: "Point-Bold", sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		letter-spacing: -0.01em;
+		padding-top: .54em;
+		margin-bottom: 0;
+}
+.clients__desc{
+	max-width: 848px;
+	width: 100%;
+	opacity: .8;
+	margin-bottom: 60px;
+}
+
+.clients__logo{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(224px, 1fr));
+	gap: 16px;
+}

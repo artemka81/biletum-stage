@@ -1,0 +1,103 @@
+.advantage{
+	position: relative;
+}
+.advantage__bg{
+	position:absolute;
+	width: 368px;
+	height: 332px;
+	z-index: -2;
+	right:-15px;
+	top: -55px;
+	background-repeat: no-repeat;
+	background: url(../img/advantage_bg.jpg);
+}
+.advantage__title{
+	  display: flex;
+		font-size: 64px;
+		color: $dark;
+	 	font-family: "Point-Bold", sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		letter-spacing: -0.01em;
+		margin:2em 0 1.2em 0;
+}
+
+.border-wrap{
+	width: 476px;
+	height: 100px;
+	border-radius: 90px;
+
+	margin: 0 100px 0 50px;
+	transform: rotate(1deg);
+	border: 2px solid #FF8786;
+	span{
+			display: inline-block;
+			line-height: 1;
+			background: linear-gradient(90deg, #3AA1FF 0%, #00F8FF 100%);
+			transform: rotate(-3.5deg);
+			border-radius: 100px;
+			padding: 12px 32px 20px 32px;
+			color: #ffffff;
+			letter-spacing: -0.01em;
+		}
+}
+
+.advantage__cards{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(464px, 1fr));
+	gap: 16px;
+		.card{
+			flex:1 1 auto;
+			flex-wrap: wrap;
+			align-self: normal;
+			min-height: 376px;
+			padding: 40px;
+			border: 2px solid $dark;
+			border-image-slice: 2;
+			border-width: 2px;
+			border-image-source: linear-gradient(90deg, #3AA1FF 0%, #00F8FF 100%);
+			background:#ffffff;
+			transition: all .3s ease-in;
+			color: #000000;
+			transition: all .3s ease;
+
+			&__icon{
+				text-align: center;
+				margin-bottom: 44px;
+				flex-grow: 1;
+				font-size: 90px;
+				color: inherit;
+				font-family: "Point-Bold", sans-serif;
+				font-style: normal;
+				font-weight: bold;
+				letter-spacing: -1%;
+				line-height: 1.4;
+				transition: all .3s ease;
+				span{
+					font-size: 22px;
+					transition: all .3s ease;
+				}
+			}
+			&__desc{
+				font-family: "Point-Bold", sans-serif;
+				font-style: normal;
+				font-weight: bold;
+				letter-spacing: -1%;
+				line-height: 1.2;
+				font-size: 22px;
+				text-align: center;
+				transition: all .3s ease;
+			}
+			&:hover{
+				cursor: pointer;
+				background: radial-gradient(90.09% 137.19% at 97.74% 107.18%, #FF8786 0%, #FF8786 65.61%, #FACE8A 100%);
+				.card__icon, .card__desc, .card__icon span{
+					filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(183deg) brightness(115%) contrast(101%);
+				}
+			}
+		}
+
+		.card:nth-child(odd) {
+			border-image-source: linear-gradient(90deg, #FF8786 0%, #FACE8A 100%);
+		}
+}

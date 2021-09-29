@@ -1,0 +1,31 @@
+*:focus {
+    outline: none;
+}
+
+body{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	color: $dark;
+	line-height: 1.6;
+}
+
+body.lock{
+	overflow: hidden;
+}
+.site-container {
+	overflow: hidden;
+	padding: 0 16px;
+	margin: 0 auto;
+	width: 100%;
+
+}
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 1424px;
+	margin: 0 auto;
+}
+
+.main{
+	position: relative;
+}

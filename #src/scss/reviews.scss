@@ -1,0 +1,70 @@
+.reviews{
+	margin:8em 0 0 0;
+}
+.reviews-slider{
+	overflow-x: hidden;
+	padding: 40px 0;
+
+	&__slider{
+		display: flex;
+  	flex-direction: column;
+		border: 1px solid #E7EDFF;
+		padding: 30px 35px;
+		background-color: #fff;
+		min-height: 530px;
+		height: auto;
+	}
+	&__info{
+		display: flex;
+		flex-direction: column;
+		align-items:flex-start;
+		justify-content: flex-start;
+		background-image: url(https://ticketforevent.com/img/testimonialsIcon.png);
+		background-repeat: no-repeat;
+    background-position: 0 0;
+		padding-left: 70px;
+
+		p{
+		font-size: 20px;
+		color: $dark;
+	 	font-family: "Point-Bold", sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		padding: 0;
+		margin-bottom: 0;
+		}
+		a{
+			color: $blue;
+			line-height: 1.4;
+			text-decoration: none;
+			font-size: 14px;
+		}
+	}
+	&__text{
+		padding-top: 16px;
+		font-family: Verdana, Geneva, serif;
+		font-style: normal;
+		font-weight:lighter;
+		font-size: 18px;
+
+	}
+}
+.reviews__title{
+	font-size: 64px;
+		color: $dark;
+	 	font-family: "Point-Bold", sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		letter-spacing: -0.01em;
+
+}
+
+.reviews-container{
+	display: flex;
+	flex-direction: row;
+  justify-content:space-between;
+}
+.reviews-button{
+	position: relative;
+	width: 80px;
+}

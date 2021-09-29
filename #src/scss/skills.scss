@@ -1,0 +1,82 @@
+.skills{
+	position: relative;
+
+}
+.skills__title{
+		font-size: 64px;
+		color: $dark;
+	 	font-family: "Point-Bold", sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		letter-spacing: -0.01em;
+		margin:1.8em 0 .8em 1.84em;
+}
+
+.skills__info{
+	display: flex;
+	justify-content:space-between;
+}
+.skills__logo{
+	text-align: left;
+	padding: 24px 0 26px 0;
+}
+.skills__date{
+	font-size: 32px;
+	text-align: left;
+	padding: 20px 0 20px ;
+
+	color: $dark;
+	font-family: "Point-Bold", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+}
+.skills-biletum{
+	position: relative;
+	background-image: url(../img/skills_bg.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	margin: 0;
+	width: 500px;
+}
+.skills-expo, .skills-tiket{
+	width: 350px;
+}
+
+.skills__magic{
+	position:absolute;
+	top: 108px;
+	left: 140px;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 58px;
+	letter-spacing: -0.01em;
+	padding: 12px 34px 12px 32px;
+	font-family: "Point-Bold", sans-serif;
+	text-align: center;
+	color: #ffffff;
+	background: linear-gradient(90deg, #FF8786 0%, #FACE8A 100%);
+	border-radius: 200px;
+	transform: rotate(-6.85deg);
+}
+.skills__list{
+	ul{
+		margin-left: 0;
+    padding-left: 0;
+		li{
+			position: relative;
+			list-style-type: none;
+			margin-bottom: 14px;
+			&::before{
+				content: "";
+				position:absolute;
+				top: 6px;
+				left: -30px;
+				width: 1px;
+				height: 30px;
+				background-color:#000000;
+				transform: rotate(-135deg);
+			}
+		}
+	}
+}

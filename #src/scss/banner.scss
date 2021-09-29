@@ -1,0 +1,14 @@
+.banner{
+	position:absolute;
+	top: -3.9em;
+	right: -22%;
+	content: url("../img/Big.jpg");
+	max-width: 1411px;
+ 	background-color: #cccccc;
+	z-index: -1;
+
+	width: 100%;
+	// background-size: contain;
+	background-repeat: no-repeat;
+
+}
