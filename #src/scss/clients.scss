@@ -31,3 +31,29 @@
 	grid-template-columns: repeat(auto-fit, minmax(224px, 1fr));
 	gap: 16px;
 }
+
+.partners {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(224px, 1fr));
+  grid-gap: 16px;
+}
+
+.partners__item {
+    background: #ffffff;
+		list-style-type: none;
+}
+
+.partners__item img {
+    display: block;
+		object-fit: contain;
+    max-width: 100%;
+    width: 224px;
+    height: 96px;
+}
+
+.partners__item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

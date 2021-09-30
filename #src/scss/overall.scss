@@ -30,6 +30,11 @@ body.lock{
 	position: relative;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 @media only screen and (min-width: 769px){
 	.site-container {
 		padding: 0 30px;
