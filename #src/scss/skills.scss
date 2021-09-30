@@ -109,6 +109,7 @@
 	.skills__list{
 	ul{
 		li{
+      font-size: 15px;
 			&::before{
 				content: "";
 				position:absolute;
@@ -144,6 +145,9 @@
 	.skills__logo{
 		width: 80%;
 		padding: 16px 16px 16px 32px;
+		img{
+			max-width: 290px;
+		}
 	}
 	.skills__date, .skills__list {
 		padding: 0 16px 0 32px;
