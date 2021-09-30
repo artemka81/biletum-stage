@@ -3,9 +3,8 @@
 
 /* Slider  */
 new Swiper('.slider-container',{
-	centeredSlides: true,
-	slidesPerView: 'auto',
-	loop:true,
+	slidesPerView: 3,
+	watchOverflow: true,
 	spaceBetween:16,
 	navigation: {
 		nextEl: '.swiper-button-next',

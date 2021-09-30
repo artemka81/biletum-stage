@@ -1,7 +1,19 @@
+.title-container{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
 .title{
+	display: flex;
+	flex-direction: column;
 	position: relative;
 	padding-top: 50px;
-	min-height: 600px;
+}
+.title-btn{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
 }
 .decs{
 	margin-top: 40px;
@@ -47,3 +59,228 @@
 	transform: rotate(-6.85deg);
 }
 
+@media only screen and (max-width: 599px) {
+	.banner{
+		display:none;
+	}
+	.title{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end start;
+		padding-top: 30px;
+		max-width: 320px;
+	}
+	.your, .experience {
+		font-size: 46px;
+		line-height: 1.2;
+	}
+	.experience{
+		text-align: right;
+		padding: 94px 0 0 0;
+	}
+	.wow{
+		position:absolute;
+		top: 60px;
+		left: 30px;
+		font-size: 40px;
+		line-height: 1;
+		padding: 16px 24px 10px;
+	}
+	.decs{
+		font-size: 15px;
+		margin: 20px 0;
+		line-height: 1.7;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+
+	.banner{
+		display:none;
+	}
+	.title{
+		display: flex;
+		flex-direction: column;
+		max-width: 600px;
+	}
+	.your, .experience {
+		font-size: 70px;
+		line-height: 1.2;
+	}
+	.experience{
+		text-align: right;
+		padding: 140px 0 0 0;
+	}
+	.wow{
+		position:absolute;
+		top: 98px;
+		left: 50px;
+		font-size: 60px;
+		line-height: 1;
+		padding: 26px 36px 20px;
+	}
+	.decs{
+		margin: 20px 0;
+		line-height: 1.7;
+	}
+
+}
+
+@media (min-width: 769px) and (max-width: 1022px) {
+	.title-container{
+		align-items:flex-start;
+	}
+	.banner{
+		display:block;
+		top: -2.2em;
+		right: -22em;
+		max-width: 900px;
+	}
+	.title{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end start;
+		padding-top: 30px;
+		max-width: 760px;
+	}
+	.your, .experience {
+		font-size: 46px;
+		line-height: 1.2;
+	}
+	.experience{
+		text-align: left;
+		padding: 94px 0 0 50px;
+	}
+	.wow{
+		position:absolute;
+		top: 60px;
+		left: 30px;
+		font-size: 40px;
+		line-height: 1;
+		padding: 16px 24px 10px;
+	}
+	.decs{
+		font-size: 15px;
+		margin: 20px 0;
+		line-height: 1.6;
+		max-width: 400px;
+	}
+	.title-btn{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items:center;
+	}
+}
+
+@media (min-width: 1023px) and (max-width: 1199px) {
+	.title-container{
+		align-items:flex-start;
+	}
+	.banner{
+		display:block;
+		top: -2.8em;
+		right: -22em;
+		max-width: 1000px;
+	}
+	.title{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end start;
+		padding-top: 30px;
+		max-width: 760px;
+	}
+	.your, .experience {
+		font-size: 60px;
+		line-height: 1.2;
+	}
+	.experience{
+		text-align: left;
+		padding: 130px 0 0 70px;
+	}
+	.wow{
+		position:absolute;
+		top: 68px;
+		left: 40px;
+		font-size: 56px;
+		line-height: 1;
+		padding: 20px 40px 18px;
+	}
+	.decs{
+		font-size: 18px;
+		margin: 30px 0;
+		line-height: 1.6;
+		max-width: 500px;
+	}
+	.title-btn{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items:center;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1600px){
+	.title-container{
+		align-items:flex-start;
+	}
+	.banner{
+		display:block;
+		top: -2.6em;
+		right: -22em;
+		max-width: 1100px;
+	}
+	.title{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end start;
+		padding-top: 30px;
+		max-width: 760px;
+	}
+	.your, .experience {
+		font-size: 60px;
+		line-height: 1.2;
+	}
+	.experience{
+		text-align: left;
+		padding: 130px 0 0 70px;
+	}
+	.wow{
+		position:absolute;
+		top: 68px;
+		left: 40px;
+		font-size: 56px;
+		line-height: 1;
+		padding: 20px 40px 18px;
+	}
+	.decs{
+		font-size: 18px;
+		margin: 30px 0;
+		line-height: 1.6;
+		max-width: 600px;
+	}
+	.title-btn{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items:center;
+	}
+}
+
+@media only screen and (min-width: 1601px) {
+	.title-container{
+		align-items:flex-start;
+	}
+	.title-btn{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items:center;
+	}
+	.decs{
+		font-size: 22px;
+		margin: 40px 0;
+		line-height: 1.6;
+		max-width: 700px;
+	}
+}

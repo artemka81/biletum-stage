@@ -2,10 +2,9 @@
 	position:absolute;
   z-index:1;
 	top:-11px;
-  right:-140px;
+  right:-90px;
   background:#fff;
   border-radius:8px;
-
 }
 
 .current_lang{
@@ -103,7 +102,7 @@
 
 
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 1023px) {
 	.translate_wrapper{
 		position:fixed;
 		z-index:1;
@@ -113,4 +112,13 @@
 		background:#fff;
 		border-radius:8px;
 	}
+}
+
+@media (min-width: 1023px) and (max-width: 1199px) {
+  .translate_wrapper{
+    top:-11px;
+    right:-80px;
+    background:#fff;
+    border-radius:8px;
+  }
 }

@@ -4,7 +4,7 @@
 
 body{
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	color: $dark;
 	line-height: 1.6;
 }
@@ -28,4 +28,10 @@ body.lock{
 
 .main{
 	position: relative;
+}
+
+@media only screen and (min-width: 769px){
+	.site-container {
+		padding: 0 30px;
+	}
 }
