@@ -14,7 +14,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items:center;
-	
+
 }
 .decs{
 	margin-top: 40px;
@@ -123,6 +123,7 @@
 	.decs{
 		margin: 20px 0;
 		line-height: 1.7;
+		font-size: 18px;
 	}
 
 }
@@ -133,9 +134,9 @@
 	}
 	.banner{
 		display:block;
-		top: -2.2em;
+		top: -4.2em;
 		right: -22em;
-		max-width: 900px;
+		max-width: 1200px;
 	}
 	.title{
 		display: flex;
@@ -161,8 +162,8 @@
 		padding: 16px 24px 10px;
 	}
 	.decs{
-		font-size: 15px;
-		margin: 20px 0;
+		font-size: 18px;
+		margin: 40px 0;
 		line-height: 1.6;
 		max-width: 400px;
 	}

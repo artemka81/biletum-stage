@@ -38,9 +38,7 @@
 	margin: 0;
 	width: 500px;
 }
-.skills-expo, .skills-tiket{
-	width: 350px;
-}
+
 
 .skills__magic{
 	position:absolute;
@@ -76,6 +74,167 @@
 				height: 30px;
 				background-color:#000000;
 				transform: rotate(-135deg);
+			}
+		}
+	}
+}
+
+
+@media only screen and (max-width: 599px){
+	.skills__info{
+		display: flex;
+		flex-direction: column;
+		justify-content:center;
+		align-items:center;
+	}
+
+	.skills-expo, .skills-tiket{
+		max-width: 400px;
+		width: 100%;
+		margin-bottom: 1.2em;
+	}
+	.skills-biletum{
+		display: none;
+	}
+	.skills__logo{
+		width: 80%;
+		padding: 16px 16px 16px 32px;
+	}
+	.skills__date, .skills__list {
+		padding: 0 16px 0 32px;
+	}
+	.skills__date{
+		font-size: 24px;
+	}
+	.skills__list{
+	ul{
+		li{
+			&::before{
+				content: "";
+				position:absolute;
+				top: 4px;
+				left: -24px;
+				width: 1px;
+				height: 30px;
+				background-color:#000000;
+				transform: rotate(-135deg);
+			}
+		}
+	}
+}
+}
+
+
+@media only screen and (max-width: 1022px){
+	.skills__info{
+		display: flex;
+		flex-direction: column;
+		justify-content:center;
+		align-items:center;
+	}
+
+	.skills-expo, .skills-tiket{
+		max-width: 540px;
+		width: 100%;
+		margin-bottom: 1.2em;
+	}
+	.skills-biletum{
+		display: none;
+	}
+	.skills__logo{
+		width: 80%;
+		padding: 16px 16px 16px 32px;
+	}
+	.skills__date, .skills__list {
+		padding: 0 16px 0 32px;
+	}
+	.skills__date{
+		font-size: 24px;
+	}
+	.skills__list{
+	ul{
+		li{
+			font-size: 18px;
+			&::before{
+				content: "";
+				position:absolute;
+				top: 4px;
+				left: -24px;
+				width: 1px;
+				height: 30px;
+				background-color:#000000;
+				transform: rotate(-135deg);
+			}
+		}
+	}
+}
+}
+
+@media only screen and (max-width: 1199px){
+	.skills__info{
+		display: flex;
+		flex-direction: row;
+		justify-content:space-around;
+		align-items:flex-start;
+	}
+	.skills-biletum{
+		display: none;
+	}
+	.skills__list{
+		ul{
+		 	li{
+				font-size: 18px;
+			}
+		}
+	}
+	.skills-expo, .skills-tiket{
+		max-width: 400px;
+		width: 100%;
+		margin-bottom: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.skills__info{
+		display: flex;
+		flex-direction: row;
+		justify-content:center;
+	}
+	.skills-expo, .skills-tiket{
+		max-width: 340px;
+		width: 100%;
+		margin-bottom: 1.2em;
+	}
+	.skills-biletum{
+		margin: 0 20px;
+	}
+	.skills__magic{
+		left: 140px;
+	}
+
+}
+
+@media only screen and (min-width: 1400px) {
+	.skills__info{
+		display: flex;
+		flex-direction: row;
+		justify-content:center;
+	}
+	.skills-expo, .skills-tiket{
+		max-width: 340px;
+		width: 100%;
+		margin-bottom: 1.2em;
+	}
+	.skills-biletum{
+		margin: 0 20px;
+	}
+	.skills__magic{
+		left: 140px;
+	}
+	.skills__list{
+		ul{
+		 	li{
+				font-size: 18px;
 			}
 		}
 	}
