@@ -4,15 +4,14 @@
 .reviews-slider{
 	overflow-x: hidden;
 	padding: 40px 0;
-
 	&__slider{
 		display: flex;
   	flex-direction: column;
 		border: 1px solid #E7EDFF;
 		padding: 30px 35px;
 		background-color: #fff;
-		min-height: 530px;
 		height: auto;
+		width: auto;
 	}
 	&__info{
 		display: flex;
@@ -67,4 +66,33 @@
 .reviews-button{
 	position: relative;
 	width: 80px;
+}
+
+@media only screen and (max-width: 599px){
+	.reviews{
+		margin:1.6em 0 0 0;
+	}
+	.reviews__title{
+		margin: 0;
+		padding: 0;
+	}
+	.reviews-slider__info{
+		height: auto;
+	}
+	.reviews-slider__slider{
+		padding: 16px;
+	}
+	.reviews-slider__text{
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 1199px){
+	.reviews{
+		margin:1.6em 0 0 0;
+	}
+	.reviews__title{
+		margin: 0;
+		padding: 0;
+	}
 }
