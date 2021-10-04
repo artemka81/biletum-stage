@@ -11,7 +11,10 @@
 		position: relative;
 	}
 }
-
+.lng-menu__list{
+	display: flex;
+	flex-direction: column;
+}
 .lng-menu__list > li{
 	display: inline-block;
 	cursor: pointer;
@@ -23,9 +26,9 @@
 .menu__icon{
 	display: none;
 }
-a.menu__link{
+li.menu__link{
 	color:#000000;
-	font-size: 14px;
+	font-size: 18px;
 	text-decoration: none;
 	&:hover {
 		text-decoration: underline;
@@ -43,6 +46,7 @@ a.menu__link{
 	.lng-menu__list{
 			display: flex;
 			align-items: center;
+			flex-direction: row;
 	}
 	.lng-menu__list > li{
 		margin: 0 26px 0 0;
