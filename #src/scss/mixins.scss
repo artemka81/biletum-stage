@@ -28,7 +28,7 @@
   font-size:18px;
 }
 
-.btn-sale{
+.lng-btn-sale{
   @include buttonGradient($orange, $orange2);
   padding: 24px 48px;
   font-size: 32px;
@@ -36,7 +36,7 @@
   margin: 0 1em 0 0;
 
 }
-.btn-promo{
+.lng-btn-promo{
   @include buttonGradient($blueGradient, $blue2);
   padding: 24px 48px;
   font-size: 32px;
@@ -45,28 +45,28 @@
 }
 
 @media only screen and (max-width: 599px) {
-  .btn-sale, .btn-promo{
+  .lng-btn-sale, .lng-btn-promo{
     padding: 16px 28px;
     font-size: 18px;
     margin: .3em 0;
   }
 }
 @media (min-width: 600px) and (max-width: 768px) {
-  .btn-sale, .btn-promo{
+  .lng-btn-sale, .lng-btn-promo{
     padding: 24px 32px;
     font-size: 24px;
     margin: .3em 0;
   }
 }
 @media (min-width: 769px) and (max-width: 1022px) {
-  .btn-sale, .btn-promo{
+  .lng-btn-sale, .lng-btn-promo{
     padding: 16px 28px;
     font-size: 18px;
     margin: 0 .3em ;
   }
 }
 @media (min-width: 1023px) and (max-width: 1199px){
-  .btn-sale, .btn-promo{
+  .lng-btn-sale, .lng-btn-promo{
     padding: 16px 28px;
     font-size: 18px;
     margin: 0 .3em ;
@@ -74,7 +74,7 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1600px){
-   .btn-sale, .btn-promo{
+   .lng-btn-sale, .lng-btn-promo{
     padding: 16px 28px;
     font-size: 18px;
     margin: 0 .3em ;
