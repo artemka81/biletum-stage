@@ -5,10 +5,16 @@
 new Swiper('.slider-container',{
 	slidesPerView: 1,
 	watchOverflow: true,
+	loop:false,
 	spaceBetween:16,
 	touchRatio:2,
 	grabCursor: true,
 	watchOverflow: true,
+	autoplay:{
+		delay:5000,
+		stopOnLastSlide:true
+	},
+	speed:2000,
 	navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",

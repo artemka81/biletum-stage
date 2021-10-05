@@ -1,35 +1,36 @@
 .cta{
-	margin:4em 0 8em 0;
+	margin:2em 0 4em 0;
 	&__bg{
 		background-image: url(../img/cta_bg.png);
 		background-repeat: no-repeat;
 		background-position: center center;
-		min-height: 440px;
+		background-size:contain;
+		min-height: 300px;
 	}
 	&__cta__wrapper{
 		position: relative;
-
 	}
 	&__conversion, &__source{
 			position: absolute;
+			right: 0;
+			left: 0;
 			margin-left: auto;
-			margin-right: auto;
+      margin-right: auto;
+			padding: 16px;
+			width: 300px;
 			text-align: center;
 			font-family: "Point-Regular", Verdana, Geneva, serif;
 			display: inline-block;
 			border-radius: 100px;
-			padding: 18px 28px;
 			color: #ffffff;
 			font-weight: 300;
 			line-height: 1.2;
 			font-style:normal;
-			font-size: 24px;
+			font-size: 15px;
 	}
 	&__conversion{
 		background: $yellow;
-		width: 430px;
-		top: 146px;
-		right: 580px;
+		top: 20%;
 		transform: rotate(1.9deg);
 		span{
 			font-family: "Point-Bold", sans-serif;
@@ -39,15 +40,71 @@
 	}
 	&__source{
 		background: $red;
-		top: 200px;
-		right: 340px;
-		width: 540px;
+		top: 38%;
 		transform: rotate(-3.8deg);
 	}
 }
 
 .cta__btn-group{
 	display: flex;
-	justify-content:space-between;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
 }
 
+
+@media only screen and (min-width: 320px) {
+	.cta__img{
+		display: none;
+	}
+}
+@media only screen and (min-width: 600px) {
+	.cta__img{
+		display: none;
+	}
+	.cta{
+		&__bg{
+			min-height: 360px;
+		}
+		&__conversion, &__source{
+			font-size: 20px;
+			padding: 20px 0;
+		}
+		&__conversion{
+			top: 40%;
+			right: 20%;
+			width: 380px;
+		}
+		&__source{
+			top: 54%;
+			left: 20%;
+			width: 460px;
+		}
+	}
+}
+
+@media only screen and (min-width: 801px) {
+	.cta__btn-group{
+		flex-direction: row;
+		justify-content:space-around;
+	}
+}
+@media only screen and (min-width: 1199px) {
+	.cta__btn-group{
+		flex-direction: row;
+		justify-content:space-around;
+	}
+	.cta__img{
+		display: block;
+	}
+	.cta{
+		&__conversion{
+			right: 10%;
+		}
+		&__source{
+			left: 10%;
+
+		}
+	}
+
+}

@@ -44,6 +44,7 @@
 }
 .wow{
 	position:absolute;
+	z-index: -1;
 	top: 106px;
 	left: 74px;
 	font-style: normal;
@@ -77,7 +78,7 @@
 	}
 	.experience{
 		text-align: right;
-		padding: 94px 0 0 0;
+		padding: 90px 0 0 0;
 	}
 	.wow{
 		position:absolute;
@@ -110,7 +111,7 @@
 	}
 	.experience{
 		text-align: right;
-		padding: 140px 0 0 0;
+		padding: 130px 20px 0 0;
 	}
 	.wow{
 		position:absolute;
@@ -135,7 +136,7 @@
 	.banner{
 		display:block;
 		top: -4.2em;
-		right: -22em;
+		right: -28em;
 		max-width: 1200px;
 	}
 	.title{
@@ -151,7 +152,7 @@
 	}
 	.experience{
 		text-align: left;
-		padding: 94px 0 0 50px;
+		padding: 90px 0 0 50px;
 	}
 	.wow{
 		position:absolute;
@@ -182,7 +183,7 @@
 	.banner{
 		display:block;
 		top: -2.8em;
-		right: -22em;
+		right: -32em;
 		max-width: 1000px;
 	}
 	.title{
@@ -198,7 +199,7 @@
 	}
 	.experience{
 		text-align: left;
-		padding: 130px 0 0 70px;
+		padding: 122px 0 0 70px;
 	}
 	.wow{
 		position:absolute;
@@ -222,15 +223,15 @@
 	}
 }
 
-@media (min-width: 1200px) and (max-width: 1600px){
+@media (min-width: 1200px) and (max-width: 1400px) {
 	.title-container{
 		align-items:flex-start;
 	}
 	.banner{
 		display:block;
-		top: -2.6em;
-		right: -22em;
-		max-width: 1100px;
+		top: -2.8em;
+		right: -18em;
+		max-width: 900px;
 	}
 	.title{
 		display: flex;
@@ -245,7 +246,7 @@
 	}
 	.experience{
 		text-align: left;
-		padding: 130px 0 0 70px;
+		padding: 126px 0 0 70px;
 	}
 	.wow{
 		position:absolute;
@@ -259,7 +260,7 @@
 		font-size: 18px;
 		margin: 30px 0;
 		line-height: 1.6;
-		max-width: 600px;
+		max-width: 500px;
 	}
 	.title-btn{
 		display: flex;
@@ -269,7 +270,7 @@
 	}
 }
 
-@media only screen and (min-width: 1601px) {
+@media only screen and (min-width: 1401px) {
 	.title-container{
 		align-items:flex-start;
 	}
@@ -281,8 +282,14 @@
 	}
 	.lng-decs{
 		font-size: 22px;
-		margin: 40px 0;
+		margin: 20px 0;
 		line-height: 1.6;
-		max-width: 700px;
+		max-width: 580px;
+	}
+	.banner{
+		display:block;
+		top: -2.8em;
+		right: -24em;
+		max-width: 1110px;
 	}
 }
