@@ -93,9 +93,7 @@
 		width: 100%;
 		margin-bottom: 1.2em;
 	}
-	.skills-biletum{
-		display: none;
-	}
+
 	.skills__logo{
 		width: 80%;
 		padding: 16px 16px 16px 32px;
@@ -139,8 +137,11 @@
 		width: 100%;
 		margin-bottom: 1.2em;
 	}
-	.skills-biletum{
-		display: none;
+	.skills-biletum {
+		display: block;
+		height: 500px;
+		margin: 0 16px;
+		background-size: contain;
 	}
 	.skills__logo{
 		width: 80%;
